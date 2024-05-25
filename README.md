@@ -1,7 +1,7 @@
 My own version of my spring 2024 Software Engineering Project course at TXST.
 # Project Generator Website
 
-This website is an AI-powered tool designed to help advance learning and coding development by generating tailored projects based on users' inputs.
+This website is an AI-powered tool designed to help advance learning and coding development by generating tailored projects and README based on users' inputs.
 
 ## Description
 
