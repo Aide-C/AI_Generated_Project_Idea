@@ -57,7 +57,7 @@ app.use("/", repoRoute);
 // User registration route
 app.post("/register", async (req, res) => {
     try {
-        const { email, password } = req.body;
+        const { email, password, name} = req.body;
 
         console.log("Registration request received:", req.body);
 
@@ -68,7 +68,7 @@ app.post("/register", async (req, res) => {
         }
 
         const hashedPassword = await bcrypt.hash(password, 10);
-        const newUser = await usersModel.create({ email, password: hashedPassword });
+        const newUser = await usersModel.create({ name: name ,email: email, password: hashedPassword});
 
         console.log("User registered successfully:", newUser);
 

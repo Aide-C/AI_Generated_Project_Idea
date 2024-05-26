@@ -10,8 +10,7 @@ function Results(){
     const [link, setLink] = useState();
     const [repoParam, setRepoParam] = useState({
         repoName: '',
-        token:'',
-        content: response
+        token:''
     });
     const navigate = useNavigate();
 
@@ -39,7 +38,7 @@ function Results(){
         e.preventDefault();
 
         if (repoParam.repoName.trim() === '' || repoParam.token.trim() === ''){
-            alert('Please fill in all fields');
+            alert('Please Fill In All Requirements!');
             return;
         }
 
@@ -90,7 +89,7 @@ function Results(){
                                 <label><strong>GitHub Token</strong></label>
                                 <input
                                     type='text'
-                                    placeholder='Enter Personal Access Token'
+                                    placeholder='Enter Valid Personal Access Token'
                                     autoComplete='off'
                                     name='token'
                                     value={repoParam.token}

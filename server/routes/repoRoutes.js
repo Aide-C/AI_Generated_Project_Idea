@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.post('/results', async(req, res) => {
     try{
-        const {repoName, token, content} = req.body;
+        const {repoName, token} = req.body;
 
         const octokit = new Octokit({
             auth: token
