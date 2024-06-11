@@ -68,4 +68,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [ProjectHelper](https://github.com/Zfreeman24/ProjectHelper/tree/main)
+* TXST Software Engineering Project Collaboration, [ProjectHelper](https://github.com/Zfreeman24/ProjectHelper/tree/main)
